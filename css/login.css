@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Poppins';
+}
+
+h1 {
+    text-align: center;
+    font-weight: normal;
+}
+
+label {
+    padding: 10px 10px 10px 0;
+    display: inline-block;
+    color: grey;
+    font-size: 13px;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 40px;
+    max-width: 350px;
+    margin: 50px auto;
+    box-shadow: 2px 2px 8px #0000001a;
+}
+
+input[type=email],
+input[type=password] {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #bcbcbc;
+    border-radius: 8px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.submit {
+    width: 100%;
+    padding: 14px;
+    background-color: black;
+    border: none;
+    border-radius: 25px;
+    font-weight: normal;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: #bcbcbc;
+}
+
+.signup-link {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.signup-link a {
+    color: #2861d3;
+    text-decoration: underline;
+}
+
+#emailError,
+#passwordError {
+    font-size: 12px;
+}
+
+/*Toggle Password */
+
+.password-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.password-container input {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #bcbcbc;
+    border-radius: 8px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.password-container i {
+    position: absolute;
+    right: 15px;
+    bottom: 50%;
+    color: #888;
+}
+
+.togglePassword {
+    cursor: pointer;
+}
