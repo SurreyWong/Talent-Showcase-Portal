@@ -7,14 +7,4 @@
 The main objective of MMU Spotlit is to:
 - Provide a centralized platform for students and public to access information about talents, events, galleries, and community services.
 
-## Group N
-## 👥 Group Members
-| No | Name                       | Student ID      | 
-|----|----------------------------|-----------------|
-| 1  | Alysha Naili               | 1221303351      | 
-| 2  | Nur Arisya                 | 1221303288      |
-| 3  | Nur Ayu Farisha            | 1211101924      |
-| 4  | Wong Wai Yee               | 1221303660      |
-
----
 
